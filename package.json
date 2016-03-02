@@ -1,0 +1,32 @@
+{
+  "name": "node-onewaysms-api",
+  "version": "1.0.0",
+  "description": "A NodeJS based API wrapper implementation for OneWaySMS SMS Gateway provider.",
+  "main": "index.js",
+  "dependencies": {
+    "request": "2.*"
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earljon/node-onewaysms-api.git"
+  },
+  "keywords": [
+    "onewaysms",
+    "sms",
+    "bulksms",
+    "messaging",
+    "api"
+  ],
+  "author": "Earljon Hidalgo <earljon@gmail.com> (http://www.earljon.com)",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/earljon/node-onewaysms-api/blob/master/LICENSE"
+  }],
+  "bugs": {
+    "url": "https://github.com/earljon/node-onewaysms-api/issues"
+  },
+  "homepage": "https://github.com/earljon/node-onewaysms-api"
+}
