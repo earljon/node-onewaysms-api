@@ -26,10 +26,10 @@ OneWaySMS.prototype.send = function send(sms, callback) {
 	var data = {
     	apiusername: this.apiusername,
     	apipassword: this.apipassword,   	
-		senderid: sms.from,
+		senderid: encodeURIComponent(sms.from),
     	mobileno: numbers,
     	languagetype: sms.ascii ? 1 : 2, 
-    	message: sms.ascii ? sms.message : sms.message.toUnicodeSMS()
+    	message: sms.ascii ? encodeURIComponent(sms.message) : sms.message.toUnicodeSMS()
 	}
 
     var query = toQueryParam(data);

@@ -1,6 +1,6 @@
 {
   "name": "node-onewaysms-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS based API wrapper implementation for OneWaySMS SMS Gateway provider.",
   "main": "index.js",
   "dependencies": {
